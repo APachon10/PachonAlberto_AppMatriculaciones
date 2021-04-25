@@ -4,7 +4,10 @@
 			body{
 				background-color: #99ddff;
 			}
-			
+			#Formulario{
+				margin-left:500px;
+				margin-top:300px;
+			}
 			#inpUser{
 				background-color: #99ddff;
 				color:black;
@@ -22,17 +25,26 @@
 				text-align: center;
 				font-size:30px;
 				background-color: #99ddff;
-				
+			}
+			#UserLabel{
+				font-family: Arial, Helvetica, sans-serif;
+				font-weight: bold;
+			}
+			#PassLabel{
+				font-family: Arial, Helvetica, sans-serif;
+				font-weight: bold;
 			}
 		</style>
 	</head>
 	<body>
-		<form>
-			<label id = "UserLabel">User: </label>
-			<input id="inpUser",type="text"><br>
-			<label id ="PassLabel">Password: </label>
-			<input id="inpPass",type="password"><br>
-			<button id = "logButton">Login</button>
-		</form>
+		<div id ="Formulario">
+			<form>
+				<label id = "UserLabel">User: </label>
+				<input id="inpUser",type="text"><br>
+				<label id ="PassLabel">Password: </label>
+				<input id="inpPass",type="password"><br>
+				<button id = "logButton">Login</button>
+			</form>
+		</div>
 	</body>
 </html>
